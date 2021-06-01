@@ -5,7 +5,7 @@ This repository contains the code necessary to train and test convolutional neur
 
 ## Model
 1. You can download model at this link : [Model_Barcode](https://drive.google.com/drive/folders/1aOCx-ue_KW6DiP3RhvN4sY7JddFQhJS-?usp=sharing)
-2. You can download pb format model at this link : [Model.Pb_Barcode](https://drive.google.com/drive/folders/1QyvLv1E6k6xUORvP4CdDCFQkL6xITxef?usp=sharing) (Use Bangkit Account)
+2. You can download pb format model at this link : [Model.Pb_Barcode](https://drive.google.com/drive/folders/1QyvLv1E6k6xUORvP4CdDCFQkL6xITxef?usp=sharing)
 
 ## Dataset
 Because we lacked the dataset, therefore we combined the streetview and barcode datasets.
