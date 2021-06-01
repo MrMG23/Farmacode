@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">405245862215-3npa1pqm66fq9e9kkd9niqnnfobacpd5.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://careful-muse-313003-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">405245862215</string>
+    <string name="google_api_key" translatable="false">AIzaSyC4ApliEQCN3zNvLtGdAFlq4tk0Z8o1ePo</string>
+    <string name="google_app_id" translatable="false">1:405245862215:android:e84ec5007cf8d467d32c62</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC4ApliEQCN3zNvLtGdAFlq4tk0Z8o1ePo</string>
+    <string name="google_storage_bucket" translatable="false">careful-muse-313003.appspot.com</string>
+    <string name="project_id" translatable="false">careful-muse-313003</string>
+</resources>

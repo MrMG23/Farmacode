@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_logo.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto_thin.ttf.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\font\\roboto_thin.ttf"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_on_boarding1.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\fragment_on_boarding1.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto_bold.ttf.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\font\\roboto_bold.ttf"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scanner.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_logo.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_patient.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_patient.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_on_boarding.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_on_boarding.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_logo.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_logo.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_logo.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_logo.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_onboarding2.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\drawable\\ic_onboarding2.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_button.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto_regular.ttf.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\font\\roboto_regular.ttf"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_logo.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_on_boarding2.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\fragment_on_boarding2.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto_medium.ttf.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\font\\roboto_medium.ttf"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_drug.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_drug.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_on_boarding3.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\fragment_on_boarding3.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_onboarding3.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\drawable\\ic_onboarding3.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_onboarding1.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\drawable\\ic_onboarding1.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_logo.png.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]

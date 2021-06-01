@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_on_boarding2.xml",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\fragment_on_boarding2.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_patient.xml",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_patient.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_on_boarding3.xml",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\fragment_on_boarding3.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_on_boarding.xml",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_on_boarding.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_on_boarding1.xml",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\fragment_on_boarding1.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_drug.xml",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_drug.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_scanner.xml",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    }
+]
