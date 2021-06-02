@@ -1,13 +1,17 @@
 package com.bangkit.farmacode.patient
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.bangkit.farmacode.R
 import com.bangkit.farmacode.databinding.ActivityPatientBinding
+import com.bangkit.farmacode.scanner.ScannerActivity
 import com.bangkit.farmacode.utils.Formatter
 import com.google.firebase.database.*
 
-class PatientActivity : AppCompatActivity() {
+class PatientActivity : AppCompatActivity(), View.OnClickListener {
 
     companion object {
         const val EXTRA_DATA = "extra_data"
@@ -16,6 +20,8 @@ class PatientActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityPatientBinding
     private lateinit var dbReference: DatabaseReference
+    private var idPatient: String? = null
+    private var drugSize: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,11 +33,16 @@ class PatientActivity : AppCompatActivity() {
             hide()
         }
 
-        val idPatient = intent.getStringExtra(EXTRA_DATA)
+        idPatient = intent.getStringExtra(EXTRA_DATA)
 
         dbReference = FirebaseDatabase.getInstance().reference
 
         populateData(idPatient)
+
+        binding.patientScanner.setOnClickListener(this)
+
+        // For reset drug status
+        binding.patientReset.setOnClickListener(this)
     }
 
     private fun populateData(idPatient: String?) {
@@ -52,7 +63,8 @@ class PatientActivity : AppCompatActivity() {
                 val drugs = snapshot.child("daftarObat")
 
                 var drugStr = ""
-                for (i in 0 until drugs.childrenCount) {
+                drugSize = drugs.childrenCount.toInt()
+                for (i in 0 until drugSize) {
                     val index = i.toString()
                     drugStr += "${drugs.child(index).child("namaObat").value.toString()} (${drugs.child(index).child("status").value.toString()}), "
                 }
@@ -65,5 +77,25 @@ class PatientActivity : AppCompatActivity() {
                 Log.e(TAG, error.message)
             }
         }) }
+    }
+
+    override fun onClick(p0: View?) {
+        when (p0?.id) {
+            R.id.patient_scanner -> {
+                Intent(this, ScannerActivity::class.java).apply {
+                    putExtra(ScannerActivity.IS_FROM_PATIENT, true)
+                    startActivity(this)
+                }
+            }
+            // For reset drug status
+            R.id.patient_reset -> {
+                idPatient?.let { id ->
+                    for (i in 0 until drugSize) {
+                        val index = i.toString()
+                        dbReference.child("pasien").child(id).child("daftarObat").child(index).child("status").setValue(false)
+                    }
+                }
+            }
+        }
     }
 }

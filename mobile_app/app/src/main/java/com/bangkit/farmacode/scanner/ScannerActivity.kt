@@ -17,6 +17,10 @@ import com.budiyev.android.codescanner.ScanMode
 
 class ScannerActivity : AppCompatActivity() {
 
+    companion object {
+        const val IS_FROM_PATIENT = "false"
+    }
+
     private lateinit var binding: ActivityScannerBinding
 
     // Scanner simulation
@@ -27,28 +31,6 @@ class ScannerActivity : AppCompatActivity() {
 
         binding = ActivityScannerBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-//        binding.scannerButton.setOnClickListener {
-//            // Simulate the scanner to get the id
-//            val id = binding.scannerInput.text.toString()
-//
-//            // Intent check where to navigate
-//            when (id[0].toString()) {
-//                "0" -> {
-//                    Intent(this, PatientActivity::class.java).apply {
-//                        putExtra(PatientActivity.EXTRA_DATA, id)
-//                        startActivity(this)
-//                    }
-//                }
-//                "1" -> {
-//                    Intent(this, DrugActivity::class.java).apply {
-//                        putExtra(DrugActivity.EXTRA_DATA, id)
-//                        startActivity(this)
-//                    }
-//                }
-//            }
-//        }
-
 
         // Scanner simulation
         val scannerView = findViewById<CodeScannerView>(R.id.scanner_view)

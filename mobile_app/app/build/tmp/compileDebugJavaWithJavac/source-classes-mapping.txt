@@ -1,9 +1,9 @@
-com/bangkit/farmacode/BuildConfig.java
- com.bangkit.farmacode.BuildConfig
 com/bangkit/farmacode/databinding/FragmentOnBoarding1Binding.java
  com.bangkit.farmacode.databinding.FragmentOnBoarding1Binding
 com/bangkit/farmacode/databinding/FragmentOnBoarding2Binding.java
  com.bangkit.farmacode.databinding.FragmentOnBoarding2Binding
+com/bangkit/farmacode/BuildConfig.java
+ com.bangkit.farmacode.BuildConfig
 com/bangkit/farmacode/databinding/FragmentOnBoarding3Binding.java
  com.bangkit.farmacode.databinding.FragmentOnBoarding3Binding
 com/bangkit/farmacode/databinding/ActivityPatientBinding.java
