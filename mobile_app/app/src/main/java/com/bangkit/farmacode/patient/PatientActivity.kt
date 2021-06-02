@@ -14,13 +14,20 @@ import com.google.firebase.database.*
 class PatientActivity : AppCompatActivity(), View.OnClickListener {
 
     companion object {
+        // For patient id
         const val EXTRA_DATA = "extra_data"
+        // For drug id (use if user click scanner button in patient activity)
         const val EXTRA_ID_DRUG = "id_drug"
+        // For logging
         private const val TAG = "PatientActivity"
     }
 
     private lateinit var binding: ActivityPatientBinding
+
+    // Declare variable to reference firebase realtime db
     private lateinit var dbReference: DatabaseReference
+
+    // Support variable
     private var idPatient: String? = null
     private var idDrug: String? = null
     private var drugSize: Int = 0
@@ -35,19 +42,24 @@ class PatientActivity : AppCompatActivity(), View.OnClickListener {
             hide()
         }
 
+        // Getting data from intent
         idPatient = intent.getStringExtra(EXTRA_DATA)
         idDrug = intent.getStringExtra(EXTRA_ID_DRUG)
 
+        // Instance firebase db
         dbReference = FirebaseDatabase.getInstance().reference
 
+        // For init data in ui
         populateData(idPatient)
 
+        // For scanning drug to update the status
         binding.patientScanner.setOnClickListener(this)
 
         // For reset drug status
         binding.patientReset.setOnClickListener(this)
     }
 
+    // To set the status of a drug
     private fun setDrugStatus(idDrug: String, listIdDrug: ArrayList<String>) {
         for (i in 0 until listIdDrug.size) {
             val index = i.toString()
@@ -59,6 +71,7 @@ class PatientActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    // To init data in ui
     private fun populateData(idPatient: String?) {
         idPatient?.let { id -> dbReference.child("pasien").child(id).addValueEventListener(object :
             ValueEventListener {
@@ -76,14 +89,15 @@ class PatientActivity : AppCompatActivity(), View.OnClickListener {
                 // binding.patientDrug.text = Formatter.change(snapshot.child("daftarObat").value.toString())
                 val drugs = snapshot.child("daftarObat")
 
+                // This variable is to store data that will be use for parameter in formatter
                 var drugStr = ""
+                // This variable is to store id drug data
                 val listIdDrug = arrayListOf<String>()
-
                 drugSize = drugs.childrenCount.toInt()
+
                 for (i in 0 until drugSize) {
                     val index = i.toString()
                     listIdDrug.add(drugs.child(index).child("id").value.toString())
-                    Log.d("opak1", "$idDrug $listIdDrug")
                     drugStr += "${drugs.child(index).child("namaObat").value.toString()} (${drugs.child(index).child("status").value.toString()}), "
                 }
 
@@ -101,8 +115,10 @@ class PatientActivity : AppCompatActivity(), View.OnClickListener {
         }) }
     }
 
+    // Button handle
     override fun onClick(p0: View?) {
         when (p0?.id) {
+            // For navigate from patient to scanner
             R.id.patient_scanner -> {
                 Intent(this, ScannerActivity::class.java).apply {
                     putExtra(ScannerActivity.ID_PATIENT, idPatient)

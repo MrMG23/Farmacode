@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FarmaCode</string>
+    <string name="app_name">Farmacode</string>
     <string name="app_logo">app logo</string>
 
     <!--onBoarding-->
@@ -15,6 +15,8 @@
     <string name="skip">Skip</string>
     <string name="next">Next</string>
     <string name="finish">Finish</string>
+
+    <!--Patient String-->
     <string name="data">Data</string>
     <string name="patient">Pasien</string>
     <string name="name">Nama:</string>
@@ -25,8 +27,10 @@
     <string name="diagnose">Diagnosis:</string>
     <string name="drug">Obat:</string>
     <string name="schedule">Jadwal:</string>
-    <string name="scanner_button">scanner button</string>
-    <string name="scanner_simulation">Simulasi Scanner</string>
+    <string name="button_reset">Button for reset drug status</string>
+    <string name="button_scanner">Button scanner</string>
+
+    <!--Drug String-->
     <string name="detail">Detail</string>
     <string name="obat">Obat</string>
     <string name="kandungan">Kandungan obat:</string>

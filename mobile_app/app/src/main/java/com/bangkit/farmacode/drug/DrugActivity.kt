@@ -11,10 +11,13 @@ class DrugActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_DATA = "extra_data"
+        // for log tag
         private const val TAG = "DrugActivity"
     }
 
     private lateinit var binding: ActivityDrugBinding
+
+    // Declare variable for firebase realtime database
     private lateinit var dbReference: DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,14 +30,18 @@ class DrugActivity : AppCompatActivity() {
             hide()
         }
 
+        // Get id from Scanner
         val idDrug = intent.getStringExtra(EXTRA_DATA)
 
+        // Reference to Firebase realtime database
         dbReference = FirebaseDatabase.getInstance().reference
 
+        // For init data to ui
         populateData(idDrug)
     }
 
     private fun populateData(idDrug: String?) {
+        // Read data from db and place it in ui
         idDrug?.let { id -> dbReference.child("obat").child(id).addValueEventListener(object :
             ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {

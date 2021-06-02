@@ -1,8 +1,7 @@
 package com.bangkit.farmacode.onboarding
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import androidx.appcompat.app.AppCompatActivity
 import com.bangkit.farmacode.databinding.ActivityOnBoardingBinding
 import com.bangkit.farmacode.onboarding.fragments.OnBoardingFragment1
 import com.bangkit.farmacode.onboarding.fragments.OnBoardingFragment2
@@ -22,7 +21,8 @@ class OnBoardingActivity : AppCompatActivity() {
             hide()
         }
 
-        val fragmentList = arrayListOf<Fragment>(
+        // List fragment that will show in onBoarding
+        val fragmentList = arrayListOf(
             OnBoardingFragment1(),
             OnBoardingFragment2(),
             OnBoardingFragment3()
