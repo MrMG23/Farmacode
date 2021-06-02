@@ -23,6 +23,21 @@ id = ""
 fn = ""
 value = ""
 
+def run_tflite_model(tflite_file, test_image):
+
+    interpreter = tf.lite.Interpreter(model_path=str(tflite_file))
+    interpreter.allocate_tensors()
+    input_details = interpreter.get_input_details()[0]
+    output_details = interpreter.get_output_details()[0]
+
+    interpreter.set_tensor(input_details["index"], test_image)
+    interpreter.invoke()
+    output = interpreter.get_tensor(output_details["index"])[0]
+
+    prediction = output.argmax()
+
+    return prediction
+
 def rotate(image, angle):
     """
     Rotates an OpenCV 2 / NumPy image about it's centre by the given angle
@@ -110,7 +125,7 @@ def download_model_file():
     # Model Bucket details
     BUCKET_NAME        = "model-predict"
     PROJECT_ID         = "careful-muse-313003"
-    GCS_MODEL_FILE     = "rotnet_barcode_view_resnet50_v2.hdf5"
+    GCS_MODEL_FILE     = "barcode.tflite"
 
     # Initialise a client
     client   = storage.Client(PROJECT_ID)
@@ -125,7 +140,7 @@ def download_model_file():
     if not os.path.exists(folder):
         os.makedirs(folder)
     # Download the file to a destination
-    blob.download_to_filename(folder + "model.hdf5")
+    blob.download_to_filename(folder + "model.tflite")
 
 def download_image(event, context):
 
@@ -188,22 +203,29 @@ def farmacode(event, context):
     if results == []:
         if not model:
             download_model_file()
-            model = tf.keras.models.load_model('/tmp/model.hdf5', custom_objects={'angle_error': angle_error})
+            model = tf.lite.Interpreter('/tmp/model.tflite')
+    
         img = image.load_img(image_path, target_size=(224, 224))
         x = image.img_to_array(img)
-        x = np.expand_dims(x, axis=0)
-        x = np.vstack([x])
-        predection = np.argmax(model.predict(x), axis=1)
+        x = np.expand_dims(x, axis=0).astype(np.float32)
+
+        model.allocate_tensors()
+        input_details = model.get_input_details()[0]
+        output_details = model.get_output_details()[0]
+        model.set_tensor(input_details["index"], x)
+        model.invoke()
+        output = model.get_tensor(output_details["index"])[0]
+        predection = output.argmax()
         rot_image = rotate(image_as_numpy_array,-int(predection))
         results1 = scanner.scan(rot_image)
-        
+
         if results1 == []:
             value = ""
         else:
             value = results1[0].data.decode("utf-8")
     else:
         value = results[0].data.decode("utf-8")
-    
+
     #update firestore
     doc_ref = db.collection(u'farmacode-classification').document(id[-2])
     doc_ref.set({
