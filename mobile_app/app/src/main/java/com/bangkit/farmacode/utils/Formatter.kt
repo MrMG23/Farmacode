@@ -5,7 +5,7 @@ object Formatter {
         val arrData = rawData.split(", ").toTypedArray()
         var finalData = ""
         for (datum in arrData) {
-            finalData += "- $datum \n"
+            finalData += " $datum \n"
         }
         return finalData
     }

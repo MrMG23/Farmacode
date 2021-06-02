@@ -46,7 +46,18 @@ class PatientActivity : AppCompatActivity() {
                 binding.patientAllergy.text = Formatter.change(snapshot.child("alergi").value.toString())
                 binding.patientHistory.text = Formatter.change(snapshot.child("riwayatPenyakit").value.toString())
                 binding.patientDiagnose.text = Formatter.change(snapshot.child("diagnosa").value.toString())
-                binding.patientDrug.text = Formatter.change(snapshot.child("daftarObat").value.toString())
+
+                // uncomment statement below if worst case happen
+                // binding.patientDrug.text = Formatter.change(snapshot.child("daftarObat").value.toString())
+                val drugs = snapshot.child("daftarObat")
+
+                var drugStr = ""
+                for (i in 0 until drugs.childrenCount) {
+                    val index = i.toString()
+                    drugStr += "${drugs.child(index).child("namaObat").value.toString()} (${drugs.child(index).child("status").value.toString()}), "
+                }
+                binding.patientDrug.text = Formatter.change(drugStr)
+
                 binding.patientSchedule.text = Formatter.change(snapshot.child("jadwalObat").value.toString())
             }
 
