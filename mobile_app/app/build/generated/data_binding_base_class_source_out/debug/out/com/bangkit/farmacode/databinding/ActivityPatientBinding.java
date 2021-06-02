@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import com.bangkit.farmacode.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -65,6 +66,12 @@ public final class ActivityPatientBinding implements ViewBinding {
   public final TextView patientName;
 
   @NonNull
+  public final FloatingActionButton patientReset;
+
+  @NonNull
+  public final FloatingActionButton patientScanner;
+
+  @NonNull
   public final TextView patientSchedule;
 
   @NonNull
@@ -96,6 +103,7 @@ public final class ActivityPatientBinding implements ViewBinding {
       @NonNull TextView patientLabelDrug, @NonNull TextView patientLabelGender,
       @NonNull TextView patientLabelHistory, @NonNull TextView patientLabelName,
       @NonNull TextView patientLabelSchedule, @NonNull TextView patientName,
+      @NonNull FloatingActionButton patientReset, @NonNull FloatingActionButton patientScanner,
       @NonNull TextView patientSchedule, @NonNull TableLayout patientTbAllergy,
       @NonNull TableLayout patientTbDiagnose, @NonNull TableLayout patientTbDrug,
       @NonNull TableLayout patientTbHistory, @NonNull TableLayout patientTbSchedule,
@@ -116,6 +124,8 @@ public final class ActivityPatientBinding implements ViewBinding {
     this.patientLabelName = patientLabelName;
     this.patientLabelSchedule = patientLabelSchedule;
     this.patientName = patientName;
+    this.patientReset = patientReset;
+    this.patientScanner = patientScanner;
     this.patientSchedule = patientSchedule;
     this.patientTbAllergy = patientTbAllergy;
     this.patientTbDiagnose = patientTbDiagnose;
@@ -243,6 +253,18 @@ public final class ActivityPatientBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.patient_reset;
+      FloatingActionButton patientReset = rootView.findViewById(id);
+      if (patientReset == null) {
+        break missingId;
+      }
+
+      id = R.id.patient_scanner;
+      FloatingActionButton patientScanner = rootView.findViewById(id);
+      if (patientScanner == null) {
+        break missingId;
+      }
+
       id = R.id.patient_schedule;
       TextView patientSchedule = rootView.findViewById(id);
       if (patientSchedule == null) {
@@ -294,9 +316,9 @@ public final class ActivityPatientBinding implements ViewBinding {
       return new ActivityPatientBinding((ScrollView) rootView, patientAge, patientAllergy,
           patientDiagnose, patientDrug, patientGender, patientHistory, patientLabelAge,
           patientLabelAllergy, patientLabelDiagnose, patientLabelDrug, patientLabelGender,
-          patientLabelHistory, patientLabelName, patientLabelSchedule, patientName, patientSchedule,
-          patientTbAllergy, patientTbDiagnose, patientTbDrug, patientTbHistory, patientTbSchedule,
-          patientTitle1, patientTitle2);
+          patientLabelHistory, patientLabelName, patientLabelSchedule, patientName, patientReset,
+          patientScanner, patientSchedule, patientTbAllergy, patientTbDiagnose, patientTbDrug,
+          patientTbHistory, patientTbSchedule, patientTitle1, patientTitle2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

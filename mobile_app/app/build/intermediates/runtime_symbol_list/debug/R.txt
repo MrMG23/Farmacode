@@ -1720,6 +1720,8 @@ int drawable ic_mtrl_chip_close_circle 0x7f070083
 int drawable ic_onboarding1 0x7f070084
 int drawable ic_onboarding2 0x7f070085
 int drawable ic_onboarding3 0x7f070086
+int drawable ic_reset 0x7f0700af
+int drawable ic_scanner 0x7f0700b0
 int drawable material_cursor_drawable 0x7f070087
 int drawable material_ic_calendar_black_24dp 0x7f070088
 int drawable material_ic_clear_black_24dp 0x7f070089
@@ -2091,6 +2093,8 @@ int id patient_label_history 0x7f090147
 int id patient_label_name 0x7f090148
 int id patient_label_schedule 0x7f090149
 int id patient_name 0x7f09014a
+int id patient_reset 0x7f0901e6
+int id patient_scanner 0x7f0901e7
 int id patient_schedule 0x7f09014b
 int id patient_tb_allergy 0x7f09014c
 int id patient_tb_diagnose 0x7f09014d

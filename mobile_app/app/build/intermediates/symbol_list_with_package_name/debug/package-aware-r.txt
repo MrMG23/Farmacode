@@ -1721,6 +1721,8 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_onboarding1
 drawable ic_onboarding2
 drawable ic_onboarding3
+drawable ic_reset
+drawable ic_scanner
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2092,6 +2094,8 @@ id patient_label_history
 id patient_label_name
 id patient_label_schedule
 id patient_name
+id patient_reset
+id patient_scanner
 id patient_schedule
 id patient_tb_allergy
 id patient_tb_diagnose
