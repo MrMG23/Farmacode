@@ -8,17 +8,12 @@ import com.bangkit.farmacode.R
 import com.bangkit.farmacode.databinding.ActivityScannerBinding
 import com.bangkit.farmacode.drug.DrugActivity
 import com.bangkit.farmacode.patient.PatientActivity
-import com.budiyev.android.codescanner.AutoFocusMode
-import com.budiyev.android.codescanner.CodeScanner
-import com.budiyev.android.codescanner.CodeScannerView
-import com.budiyev.android.codescanner.DecodeCallback
-import com.budiyev.android.codescanner.ErrorCallback
-import com.budiyev.android.codescanner.ScanMode
+import com.budiyev.android.codescanner.*
 
 class ScannerActivity : AppCompatActivity() {
 
     companion object {
-        const val IS_FROM_PATIENT = "false"
+        val ID_PATIENT = null
     }
 
     private lateinit var binding: ActivityScannerBinding
@@ -56,14 +51,25 @@ class ScannerActivity : AppCompatActivity() {
                         }
                     }
                     "1" -> {
-                        Intent(this, DrugActivity::class.java).apply {
-                            putExtra(DrugActivity.EXTRA_DATA, it.text)
-                            startActivity(this)
+                        val idPatient = intent.getStringExtra(ID_PATIENT)
+                        if (!idPatient.isNullOrEmpty()) {
+                            Intent(this, PatientActivity::class.java).apply {
+                                putExtra(PatientActivity.EXTRA_ID_DRUG, it.text)
+                                putExtra(PatientActivity.EXTRA_DATA, idPatient)
+                                startActivity(this)
+                                finish()
+                            }
+                        } else {
+                            Intent(this, DrugActivity::class.java).apply {
+                                putExtra(DrugActivity.EXTRA_DATA, it.text)
+                                startActivity(this)
+                            }
                         }
                     }
                 }
             }
         }
+
         codeScanner.errorCallback = ErrorCallback { // or ErrorCallback.SUPPRESS
             runOnUiThread {
                 Toast.makeText(
