@@ -4,10 +4,6 @@
         "source": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_logo.png"
     },
     {
-        "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "D:\\tech\\Farmacode\\mobile_app\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

@@ -2310,7 +2310,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_drug
-layout activity_main
 layout activity_on_boarding
 layout activity_patient
 layout activity_scanner
@@ -2446,6 +2445,8 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string button_reset
+string button_scanner
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2560,8 +2561,6 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string patient
 string project_id
-string scanner_button
-string scanner_simulation
 string schedule
 string search_menu_title
 string skip

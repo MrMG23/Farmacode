@@ -10,8 +10,6 @@ com/bangkit/farmacode/databinding/ActivityPatientBinding.java
  com.bangkit.farmacode.databinding.ActivityPatientBinding
 com/bangkit/farmacode/databinding/ActivityScannerBinding.java
  com.bangkit.farmacode.databinding.ActivityScannerBinding
-com/bangkit/farmacode/databinding/ActivityMainBinding.java
- com.bangkit.farmacode.databinding.ActivityMainBinding
 com/bangkit/farmacode/databinding/ActivityOnBoardingBinding.java
  com.bangkit.farmacode.databinding.ActivityOnBoardingBinding
 com/bangkit/farmacode/databinding/ActivityDrugBinding.java
