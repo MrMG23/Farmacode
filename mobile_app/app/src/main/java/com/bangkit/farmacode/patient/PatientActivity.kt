@@ -98,7 +98,14 @@ class PatientActivity : AppCompatActivity(), View.OnClickListener {
                 for (i in 0 until drugSize) {
                     val index = i.toString()
                     listIdDrug.add(drugs.child(index).child("id").value.toString())
-                    drugStr += "${drugs.child(index).child("namaObat").value.toString()} (${drugs.child(index).child("status").value.toString()}), "
+
+                    val status = if (drugs.child(index).child("status").value.toString() == "true") {
+                        "Sudah diberikan"
+                    } else {
+                        "Belum diberikan"
+                    }
+
+                    drugStr += "($status) ${drugs.child(index).child("namaObat").value.toString()}, "
                 }
 
                 idDrug?.let { setDrugStatus(it, listIdDrug) }

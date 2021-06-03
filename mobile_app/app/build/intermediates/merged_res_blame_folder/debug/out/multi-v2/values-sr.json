@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\tech\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sr\\values-sr.xml",
+            "outputFile": "D:\\tech\\android\\Farmacode\\mobile_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sr\\values-sr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Lenovo-PC\\.gradle\\caches\\transforms-2\\files-2.1\\71a6eee5c86362ee43132bfe415468e2\\play-services-base-17.1.0\\res\\values-sr\\values.xml",
