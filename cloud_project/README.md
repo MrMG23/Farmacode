@@ -11,6 +11,6 @@ Move to navigation menu, then search Cloud Storage and then create new bucket. F
 There are configuration of Cloud Function:
 Function name = farmacode-function
 region = asiasoutheast2
-After this, for next step is code. For code use python 3.7, for details code in main.py and requirements.txt
+After this, for next step is code. For code use python 3.7, for details code in 'main.py' and 'requirements.txt'
 After this, deploy cloud function
 Machine Learning model has deployed and integrate to firebase so can use in mobile app.
