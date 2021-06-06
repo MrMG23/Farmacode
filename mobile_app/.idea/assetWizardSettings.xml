@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/autorenew/baseline_autorenew_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/cameraswitch/baseline_cameraswitch_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -29,7 +29,7 @@
                         <option name="values">
                           <map>
                             <entry key="opacityPercent" value="93" />
-                            <entry key="outputName" value="ic_reset" />
+                            <entry key="outputName" value="ic_camera_switch" />
                             <entry key="sourceFile" value="D:\tech\android\Assets\farmasi-assets\icon\ic_scanner2.svg" />
                           </map>
                         </option>

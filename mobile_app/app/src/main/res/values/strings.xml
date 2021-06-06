@@ -34,4 +34,6 @@
     <string name="detail">Detail</string>
     <string name="obat">Obat</string>
     <string name="kandungan">Kandungan obat:</string>
+    <string name="image_preview">image preview</string>
+    <string name="click_to_scan">Click to scan</string>
 </resources>

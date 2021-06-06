@@ -11,109 +11,140 @@
 9-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.CAMERA" />
-12-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:6:5-65
-12-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:6:22-62
-13
-14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:25:5-79
-16-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:25:22-76
+11-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission
+12-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:7:5-9:31
+13        android:name="android.permission.CAMERA"
+13-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:7:22-62
+14        android:requiredFeature="true" />
+14-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:8:9-39
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:10:5-11:40
+15-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:12:5-79
+16-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:12:22-77
 17
-18    <application
-18-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:8:5-27:19
-19        android:allowBackup="true"
-19-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:9:9-35
-20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.5.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ec957cc892bcd6672166c61b20624d79\core-1.5.0\AndroidManifest.xml:24:18-86
-21        android:debuggable="true"
-22        android:icon="@mipmap/ic_launcher"
-22-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:10:9-43
-23        android:label="@string/app_name"
-23-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:11:9-41
-24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:12:9-54
-25        android:supportsRtl="true"
-25-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:13:9-35
-26        android:theme="@style/Theme.Farmacode" >
-26-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:14:9-47
-27        <activity android:name="com.bangkit.farmacode.drug.DrugActivity" />
-27-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:15:9-64
-27-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:15:19-52
-28        <activity android:name="com.bangkit.farmacode.patient.PatientActivity" />
-28-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:16:9-61
-28-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:16:19-58
-29        <activity android:name="com.bangkit.farmacode.scanner.ScannerActivity" />
-29-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:17:9-61
-29-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:17:19-58
-30        <activity android:name="com.bangkit.farmacode.onboarding.OnBoardingActivity" />
-30-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:18:9-67
-30-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:18:19-64
-31        <activity android:name="com.bangkit.farmacode.MainActivity" />
-31-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:19:9-50
-31-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:19:19-47
-32        <activity android:name="com.bangkit.farmacode.splash.SplashActivity" >
-32-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:20:9-26:20
-32-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:20:19-56
-33            <intent-filter>
-33-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:21:13-25:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:22:17-69
-34-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:22:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:24:17-77
-36-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:24:27-74
-37            </intent-filter>
-38        </activity>
+18    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:25:5-79
+20-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:25:22-76
+21
+22    <application
+22-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:14:5-32:19
+23        android:allowBackup="true"
+23-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:15:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.5.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ec957cc892bcd6672166c61b20624d79\core-1.5.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:16:9-43
+27        android:label="@string/app_name"
+27-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:17:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:18:9-54
+29        android:supportsRtl="true"
+29-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:19:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.Farmacode" >
+31-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:20:9-47
+32        <activity android:name="com.bangkit.farmacode.drug.DrugActivity" />
+32-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:21:9-55
+32-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:21:19-52
+33        <activity android:name="com.bangkit.farmacode.patient.PatientActivity" />
+33-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:22:9-61
+33-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:22:19-58
+34        <activity android:name="com.bangkit.farmacode.scanner.ScannerActivity" />
+34-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:23:9-61
+34-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:23:19-58
+35        <activity android:name="com.bangkit.farmacode.onboarding.OnBoardingActivity" />
+35-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:24:9-67
+35-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:24:19-64
+36        <activity android:name="com.bangkit.farmacode.splash.SplashActivity" >
+36-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:25:9-31:20
+36-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:25:19-56
+37            <intent-filter>
+37-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:26:13-30:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:27:17-69
+38-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:27:25-66
 39
-40        <service
-40-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
-41            android:name="com.google.firebase.components.ComponentDiscoveryService"
-41-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:30:13-84
-42            android:directBootAware="true"
-42-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-43            android:exported="false" >
-43-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:31:13-37
-44            <meta-data
-44-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
-45                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-45-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:33:17-109
-46                android:value="com.google.firebase.components.ComponentRegistrar" />
-46-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:34:17-82
-47        </service>
-48
-49        <provider
-49-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-50            android:name="com.google.firebase.provider.FirebaseInitProvider"
-50-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-51            android:authorities="com.bangkit.farmacode.firebaseinitprovider"
-51-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-52            android:directBootAware="true"
-52-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-53            android:exported="false"
-53-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-54            android:initOrder="100" />
-54-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-55
-56        <activity
-56-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\71a6eee5c86362ee43132bfe415468e2\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-57            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-57-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\71a6eee5c86362ee43132bfe415468e2\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-58            android:exported="false"
-58-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\71a6eee5c86362ee43132bfe415468e2\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-59-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\71a6eee5c86362ee43132bfe415468e2\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-60
-61        <meta-data
-61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ff10cd37f8ec78a717bf707ba13c301f\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-62            android:name="com.google.android.gms.version"
-62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ff10cd37f8ec78a717bf707ba13c301f\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-63            android:value="@integer/google_play_services_version" />
-63-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ff10cd37f8ec78a717bf707ba13c301f\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-64    </application>
-65
-66</manifest>
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:29:17-77
+40-->D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:29:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <service
+44-->[com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
+45            android:name="com.google.firebase.components.ComponentDiscoveryService"
+45-->[com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:13:13-84
+46            android:directBootAware="true"
+46-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+47            android:exported="false" >
+47-->[com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:14:13-37
+48            <meta-data
+48-->[com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+49                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+49-->[com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:16:17-122
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:17:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+52                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+52-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+55                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+55-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+58                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+58-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:20:13-22:85
+61                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+61-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:21:17-111
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:22:17-82
+63        </service>
+64
+65        <provider
+65-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+66            android:name="com.google.firebase.provider.FirebaseInitProvider"
+66-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+67            android:authorities="com.bangkit.farmacode.firebaseinitprovider"
+67-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+68            android:directBootAware="true"
+68-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+69            android:exported="false"
+69-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+70            android:initOrder="100" />
+70-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\71a6eee5c86362ee43132bfe415468e2\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\71a6eee5c86362ee43132bfe415468e2\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\71a6eee5c86362ee43132bfe415468e2\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\71a6eee5c86362ee43132bfe415468e2\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ff10cd37f8ec78a717bf707ba13c301f\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ff10cd37f8ec78a717bf707ba13c301f\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ff10cd37f8ec78a717bf707ba13c301f\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+80    </application>
+81
+82</manifest>

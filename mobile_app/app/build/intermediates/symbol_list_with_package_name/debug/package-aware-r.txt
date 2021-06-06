@@ -111,8 +111,6 @@ attr arrowHeadLength
 attr arrowShaftLength
 attr attributeName
 attr autoCompleteTextViewStyle
-attr autoFocusButtonColor
-attr autoFocusButtonVisible
 attr autoSizeMaxTextSize
 attr autoSizeMinTextSize
 attr autoSizePresetSizes
@@ -401,8 +399,6 @@ attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
 attr firstBaselineToTopHeight
-attr flashButtonColor
-attr flashButtonVisible
 attr floatingActionButtonStyle
 attr flow_firstHorizontalBias
 attr flow_firstHorizontalStyle
@@ -436,14 +432,7 @@ attr fontStyle
 attr fontVariationSettings
 attr fontWeight
 attr foregroundInsidePadding
-attr frameAspectRatioHeight
-attr frameAspectRatioWidth
-attr frameColor
-attr frameCornersRadius
-attr frameCornersSize
 attr framePosition
-attr frameSize
-attr frameThickness
 attr gapBetweenBars
 attr gestureInsetBottomIgnored
 attr goIcon
@@ -609,7 +598,6 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
-attr maskColor
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -1706,10 +1694,6 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_clock_black_24dp
-drawable ic_code_scanner_auto_focus_off
-drawable ic_code_scanner_auto_focus_on
-drawable ic_code_scanner_flash_off
-drawable ic_code_scanner_flash_on
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2125,7 +2109,9 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
-id scanner_view
+id scanner_button
+id scanner_image
+id scanner_text
 id screen
 id scroll
 id scrollIndicatorDown
@@ -2452,6 +2438,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string click_to_scan
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -2490,6 +2477,7 @@ string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string history
 string icon_content_description
+string image_preview
 string item_view_role_description
 string kandungan
 string material_clock_display_divider
@@ -3318,7 +3306,6 @@ styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVer
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize
-styleable CodeScannerView autoFocusButtonColor autoFocusButtonVisible flashButtonColor flashButtonVisible frameAspectRatioHeight frameAspectRatioWidth frameColor frameCornersRadius frameCornersSize frameSize frameThickness maskColor
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance maxLines scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

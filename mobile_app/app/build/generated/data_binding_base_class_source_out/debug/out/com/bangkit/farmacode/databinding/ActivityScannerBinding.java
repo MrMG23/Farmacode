@@ -4,32 +4,43 @@ package com.bangkit.farmacode.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.bangkit.farmacode.R;
-import com.budiyev.android.codescanner.CodeScannerView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityScannerBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final CodeScannerView scannerView;
+  public final FloatingActionButton scannerButton;
 
-  private ActivityScannerBinding(@NonNull FrameLayout rootView,
-      @NonNull CodeScannerView scannerView) {
+  @NonNull
+  public final ImageView scannerImage;
+
+  @NonNull
+  public final TextView scannerText;
+
+  private ActivityScannerBinding(@NonNull ConstraintLayout rootView,
+      @NonNull FloatingActionButton scannerButton, @NonNull ImageView scannerImage,
+      @NonNull TextView scannerText) {
     this.rootView = rootView;
-    this.scannerView = scannerView;
+    this.scannerButton = scannerButton;
+    this.scannerImage = scannerImage;
+    this.scannerText = scannerText;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -54,13 +65,26 @@ public final class ActivityScannerBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.scanner_view;
-      CodeScannerView scannerView = rootView.findViewById(id);
-      if (scannerView == null) {
+      id = R.id.scanner_button;
+      FloatingActionButton scannerButton = rootView.findViewById(id);
+      if (scannerButton == null) {
         break missingId;
       }
 
-      return new ActivityScannerBinding((FrameLayout) rootView, scannerView);
+      id = R.id.scanner_image;
+      ImageView scannerImage = rootView.findViewById(id);
+      if (scannerImage == null) {
+        break missingId;
+      }
+
+      id = R.id.scanner_text;
+      TextView scannerText = rootView.findViewById(id);
+      if (scannerText == null) {
+        break missingId;
+      }
+
+      return new ActivityScannerBinding((ConstraintLayout) rootView, scannerButton, scannerImage,
+          scannerText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

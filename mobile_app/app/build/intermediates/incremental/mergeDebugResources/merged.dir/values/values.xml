@@ -1085,6 +1085,7 @@
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="chip_text">Chip text</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="click_to_scan">Click to scan</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -1123,6 +1124,7 @@
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="history">Riwayat Kesehatan:</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
+    <string name="image_preview">image preview</string>
     <string name="item_view_role_description">Tab</string>
     <string name="kandungan">Kandungan obat:</string>
     <string name="material_clock_display_divider" translatable="false">:</string>
@@ -6200,20 +6202,6 @@
 
     <attr format="dimension" name="selectorSize"/>
   </declare-styleable>
-    <declare-styleable name="CodeScannerView">
-        <attr format="color" name="maskColor"/>
-        <attr format="color" name="frameColor"/>
-        <attr format="color" name="autoFocusButtonColor"/>
-        <attr format="color" name="flashButtonColor"/>
-        <attr format="boolean" name="autoFocusButtonVisible"/>
-        <attr format="boolean" name="flashButtonVisible"/>
-        <attr format="dimension" name="frameThickness"/>
-        <attr format="dimension" name="frameCornersSize"/>
-        <attr format="dimension" name="frameCornersRadius"/>
-        <attr format="float" name="frameAspectRatioWidth"/>
-        <attr format="float" name="frameAspectRatioHeight"/>
-        <attr format="float" name="frameSize"/>
-    </declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout">
     <!--  Specifies extra space on the start, top, end and bottom
           sides of the the expanded title text. Margin values should be positive. -->

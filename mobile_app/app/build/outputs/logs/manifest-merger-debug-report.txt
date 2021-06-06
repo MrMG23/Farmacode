@@ -1,17 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-34:12
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\85cc5ca4da11b02c6f1f30b9249237c0\viewbinding-4.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\f98fa7dcaca6ff62a3ca28d65d8beaca\core-ktx-1.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:2:1-21:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4604a9bb8ec801dd2b2700b41891a185\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\f2a7d76d421e8865914b1503edbe94e4\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\48cef00d6fa237f364d2b550f59cba2c\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\a1e0a5ecbed7806fbf0cbc4ce70efcd3\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:15:1-38:12
-MERGED from [com.budiyev.android:code-scanner:2.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\c0497cb946990341c21802999828faec\code-scanner-2.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\7c0623acf53bd768520e5bf6f9e49d37\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ee9e756b311cf1a594b8dacc7d24eef8\firebase-appcheck-interop-16.0.0-beta01\AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\bee1787843c75a65653e2f1da6de3b0d\firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
@@ -57,41 +60,71 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\f06e3ab6bf16ad7f4edf9cdd91c8a373\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\037cd78f2066825721eb5282da3f3273\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\a116ecf249c7eedcc30eb6c41a43dd9d\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\beda7ffc6a842572c37070d629218b1f\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9cfb5e522d821e559859cd4259555886\grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:3:5-36
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:4:5-36
 		INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
 		INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:1-34:12
 		INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:14:5-67
 	android:name
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.CAMERA
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:6:5-65
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:7:5-9:31
+	android:requiredFeature
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:8:9-39
+	tools:targetApi
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:9:9-28
 	android:name
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:6:22-62
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:10:5-11:40
+	tools:ignore
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:11:9-37
+	android:name
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:12:22-77
 application
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:8:5-27:19
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:14:5-32:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4604a9bb8ec801dd2b2700b41891a185\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4604a9bb8ec801dd2b2700b41891a185\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\f2a7d76d421e8865914b1503edbe94e4\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\f2a7d76d421e8865914b1503edbe94e4\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ee9e756b311cf1a594b8dacc7d24eef8\firebase-appcheck-interop-16.0.0-beta01\AndroidManifest.xml:24:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ee9e756b311cf1a594b8dacc7d24eef8\firebase-appcheck-interop-16.0.0-beta01\AndroidManifest.xml:24:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\bee1787843c75a65653e2f1da6de3b0d\firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
@@ -111,51 +144,47 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Le
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ec957cc892bcd6672166c61b20624d79\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:14:9-47
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:20:9-47
 activity#com.bangkit.farmacode.drug.DrugActivity
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:15:9-64
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:21:9-55
 	android:name
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:15:19-52
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:21:19-52
 activity#com.bangkit.farmacode.patient.PatientActivity
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:16:9-61
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:22:9-61
 	android:name
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:16:19-58
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:22:19-58
 activity#com.bangkit.farmacode.scanner.ScannerActivity
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:17:9-61
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:23:9-61
 	android:name
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:17:19-58
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:23:19-58
 activity#com.bangkit.farmacode.onboarding.OnBoardingActivity
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:18:9-67
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:24:9-67
 	android:name
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:18:19-64
-activity#com.bangkit.farmacode.MainActivity
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:19:9-50
-	android:name
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:19:19-47
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:24:19-64
 activity#com.bangkit.farmacode.splash.SplashActivity
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:20:9-26:20
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:20:19-56
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:25:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml:29:27-74
 uses-sdk
 INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
@@ -164,6 +193,10 @@ MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Lenovo-PC\.gradle\
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\85cc5ca4da11b02c6f1f30b9249237c0\viewbinding-4.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\f98fa7dcaca6ff62a3ca28d65d8beaca\core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.5.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\f98fa7dcaca6ff62a3ca28d65d8beaca\core-ktx-1.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4604a9bb8ec801dd2b2700b41891a185\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4604a9bb8ec801dd2b2700b41891a185\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\f2a7d76d421e8865914b1503edbe94e4\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
@@ -174,8 +207,10 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Lenovo-PC\.gradle
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\a1e0a5ecbed7806fbf0cbc4ce70efcd3\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.budiyev.android:code-scanner:2.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\c0497cb946990341c21802999828faec\code-scanner-2.1.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.budiyev.android:code-scanner:2.1.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\c0497cb946990341c21802999828faec\code-scanner-2.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\7c0623acf53bd768520e5bf6f9e49d37\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\7c0623acf53bd768520e5bf6f9e49d37\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta01] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\ee9e756b311cf1a594b8dacc7d24eef8\firebase-appcheck-interop-16.0.0-beta01\AndroidManifest.xml:19:5-21:41
@@ -266,6 +301,10 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lenovo-PC\.gradl
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\037cd78f2066825721eb5282da3f3273\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\a116ecf249c7eedcc30eb6c41a43dd9d\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\a116ecf249c7eedcc30eb6c41a43dd9d\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\beda7ffc6a842572c37070d629218b1f\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\beda7ffc6a842572c37070d629218b1f\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9cfb5e522d821e559859cd4259555886\grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9cfb5e522d821e559859cd4259555886\grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
 INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -276,28 +315,66 @@ INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.
 		INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
 		ADDED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
 		INJECTED from D:\tech\android\Farmacode\mobile_app\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:25:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:25:22-76
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:14:13-37
 	tools:targetApi
 		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:37:13-32
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:30:13-84
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:13:13-84
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\e2c66d4f331d53fe82d6fb24cdf0b9dc\firebase-storage-ktx-20.0.0\AndroidManifest.xml:16:17-122
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\4fc0ea0e2b53b06912de35a197343b07\firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9cfb5e522d821e559859cd4259555886\grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9cfb5e522d821e559859cd4259555886\grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:25:22-76
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
 ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
 	android:value
 		ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:34:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\727075685e25389e85eaf20fa2e5abe9\firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\8e3d2132d2c71cb3d5902ca7d6d4eb8c\firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\d2a3b5b97fae6946a8ff88899bdbc3c0\firebase-firestore-23.0.1\AndroidManifest.xml:21:17-111
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Lenovo-PC\.gradle\caches\transforms-2\files-2.1\9785e42a1e11099a427bb05fcc32a357\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 	android:authorities
