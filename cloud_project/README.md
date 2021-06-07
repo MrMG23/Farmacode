@@ -13,6 +13,8 @@ Move to navigation menu, then search Cloud Storage and then create new bucket. F
 There are configuration of Cloud Function:
 - Function name = `farmacode-function`
 - region = `asiasoutheast2` [Region](https://cloud.google.com/functions/docs/locations)
+- Memory allocated= `1 GB`
+- timeout= `60 seconds` (The function execution timeout in seconds)
 - After this, for next step is code. For code use python 3.7, for details code in `main.py` and `requirements.txt`
-After this, deploy cloud function
+After this, [deploy cloud function](https://cloud.google.com/functions/docs/deploying) 
 Machine Learning model has deployed and integrate to firebase so can use in mobile app.
