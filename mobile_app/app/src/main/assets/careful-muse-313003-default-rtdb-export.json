@@ -1,0 +1,1186 @@
+{
+  "obat" : {
+    "100" : {
+      "kandungan" : "Bahan aktif Ciprofloxacin Hcl",
+      "nama" : "Ciprofloxacin"
+    },
+    "101" : {
+      "kandungan" : "Termasuk ke dalam golongan antibiotik Makrolida",
+      "nama" : "Azithromycin"
+    },
+    "102" : {
+      "kandungan" : "Prednisolone 5 mg, Golongan hormon Kortikosteroid",
+      "nama" : "Prednisolone"
+    },
+    "103" : {
+      "kandungan" : "Inhibitor selektif enzim Janus Kinase (JAK) (terutama JAK1 JAK2 JAK3)",
+      "nama" : "Tofacitinib"
+    },
+    "104" : {
+      "kandungan" : "Antikonvulsan",
+      "nama" : "Ethosuximide"
+    },
+    "105" : {
+      "kandungan" : "Lamictal, Lamiros",
+      "nama" : "Lamotrigine"
+    },
+    "106" : {
+      "kandungan" : "Antipsikotik",
+      "nama" : "Sulpiride"
+    },
+    "107" : {
+      "kandungan" : "Iclofenac Sodium (Natrium Diklofenak), Diclofenac Potassium (Kalium Diklofenak)",
+      "nama" : "Diklofenak"
+    },
+    "108" : {
+      "kandungan" : "Salbutamol",
+      "nama" : "Albuterol"
+    },
+    "109" : {
+      "kandungan" : "Methotrexate, Hydroxylchloroquine, Leflunomide, Sulfasalazine, Adalimumab, Etanercept, Infliximab",
+      "nama" : "Antirematik (DMARDS)"
+    },
+    "110" : {
+      "kandungan" : "Triamcinolone Acetonide",
+      "nama" : "Triamcinolone Acetonide"
+    },
+    "111" : {
+      "kandungan" : "Mirtazapine Hemihydrate 30 mg",
+      "nama" : "Mirtazapine"
+    },
+    "112" : {
+      "kandungan" : "Bahan aktif Mesalazine, Turunan dari asam salisilat",
+      "nama" : "Mesalamine"
+    },
+    "113" : {
+      "kandungan" : "Kosong",
+      "nama" : "Salofak"
+    },
+    "114" : {
+      "kandungan" : "Kosong",
+      "nama" : "Pentasa"
+    },
+    "115" : {
+      "kandungan" : "Trimethoprim 40 mg, Sulfamethoxazole 200 mg",
+      "nama" : "Bactrim Tablet"
+    },
+    "116" : {
+      "kandungan" : "Amoxcilin 500 mg tiap kapsulnya",
+      "nama" : "Amoxicilin"
+    },
+    "117" : {
+      "kandungan" : "Salafeksin 500 mg tiap tabletnya",
+      "nama" : "Cephalexin"
+    },
+    "118" : {
+      "kandungan" : "Obat Naltrexone, Obat Bupropin",
+      "nama" : "Contarve"
+    },
+    "119" : {
+      "kandungan" : "Vit.B1 3 mg, Vit.B2 2 mg, Vit.B6 5 mg, Vit.B12 5 mcg, Beta-carotene 10% 400 mcg, Ca pantothenate/Dexpanthenol 3 mg, Ca gluconate 300 mg, Curcuminoid 2 mg",
+      "nama" : "Curvit"
+    },
+    "120" : {
+      "kandungan" : "0.02% – 0.05% Tretinoin",
+      "nama" : "Zyclara Topical Exfoliants"
+    },
+    "121" : {
+      "kandungan" : "Amitriptyline 25 mg per tablet",
+      "nama" : "Amitriptyline"
+    },
+    "122" : {
+      "kandungan" : "Zat aktif Danazol",
+      "nama" : "Methadone Danazol"
+    },
+    "123" : {
+      "kandungan" : "Lorcaserin HCL",
+      "nama" : "Belviq"
+    },
+    "124" : {
+      "kandungan" : "Quetiapine Fumarate 230.26 mg, Quetiapine Fumarate 345.39 mg, Quetiapine Fumarate 28.72 mg, Quetiapine Fumarate 115.13 mg",
+      "nama" : "Seroquel"
+    },
+    "125" : {
+      "kandungan" : "Imidazopiridin",
+      "nama" : "Zolpidem"
+    },
+    "126" : {
+      "kandungan" : "Methylphenidate 10 mg per tablet",
+      "nama" : "Nuvigil Methylphenidate"
+    },
+    "127" : {
+      "kandungan" : "Verenciline 0.5 mg per tablet",
+      "nama" : "Chantix (Verenicline)"
+    },
+    "128" : {
+      "kandungan" : "Clonazepam per tablet",
+      "nama" : "Klonopin"
+    },
+    "129" : {
+      "kandungan" : "Lithium karbonat 200 mg, Lithium karbonat 400 mg",
+      "nama" : "Frimania"
+    },
+    "130" : {
+      "kandungan" : "Ciprofloxacin 250 mg, Ciprofloxacin 500 mg per kaplet",
+      "nama" : "Ciprofloaxin"
+    },
+    "131" : {
+      "kandungan" : "150 mg Trazodone per tablet",
+      "nama" : "Trazodone"
+    },
+    "132" : {
+      "kandungan" : "Atropine Sulfate 0.25 mg/mL",
+      "nama" : "Atropin"
+    },
+    "133" : {
+      "kandungan" : "Hyoscine-N-butylbromide, Paracetamol",
+      "nama" : "Scopma Plus"
+    },
+    "134" : {
+      "kandungan" : "Loperamid HCL 2 mg",
+      "nama" : "Loperamide"
+    },
+    "135" : {
+      "kandungan" : "Opthalmic: 0.05%, Obat tersedia dalam dosis emulsi",
+      "nama" : "Cyclosporine"
+    },
+    "136" : {
+      "kandungan" : "Olterodine Tartrate, Trospium Klorida, Darifenacin, Solifenacin Succinate",
+      "nama" : "Oxybutynin"
+    },
+    "137" : {
+      "kandungan" : "Loprox Nail Lacquer 80 mg/ml",
+      "nama" : "Ciclopirox"
+    },
+    "138" : {
+      "kandungan" : "Sodium Oxybate",
+      "nama" : "Xyrem"
+    },
+    "139" : {
+      "kandungan" : "Albendazole 400 mg",
+      "nama" : "Albendazole"
+    },
+    "140" : {
+      "kandungan" : "Mebendazole 500 mg",
+      "nama" : "Mebendazole"
+    },
+    "141" : {
+      "kandungan" : "Azitromisin 500 mg",
+      "nama" : "Azitromisin"
+    },
+    "142" : {
+      "kandungan" : "Doksisiklin 200 mg",
+      "nama" : "Doksisiklin"
+    },
+    "143" : {
+      "kandungan" : "Eritromisin 200 mg",
+      "nama" : "Eritromisin"
+    },
+    "144" : {
+      "kandungan" : "Ursodeoksilat 250 mg",
+      "nama" : "Ursodeoksilat"
+    },
+    "145" : {
+      "kandungan" : "Propanolol HCl 10 mg",
+      "nama" : "Propranolol"
+    },
+    "146" : {
+      "kandungan" : "Beta1-selective (cardioselective)",
+      "nama" : "Esmolol"
+    },
+    "147" : {
+      "kandungan" : "Digoxin 0.25 mg",
+      "nama" : "Digoxin"
+    },
+    "148" : {
+      "kandungan" : "Graptopyllum Pictum Folium 30%, Sophora",
+      "nama" : "Ambeven kapsul"
+    },
+    "149" : {
+      "kandungan" : "Clotrimazole 1%",
+      "nama" : "Clotrimazole Gel"
+    },
+    "150" : {
+      "kandungan" : "Isoniazid 300 mg",
+      "nama" : "Isoniazid"
+    },
+    "151" : {
+      "kandungan" : "Rifampicin 450 mg",
+      "nama" : "Rifampicin"
+    },
+    "152" : {
+      "kandungan" : "Pyrazinamide 500 mg",
+      "nama" : "Pyrazinamide"
+    },
+    "153" : {
+      "kandungan" : "Ethambutol 275 mg",
+      "nama" : "Ethambutol"
+    },
+    "154" : {
+      "kandungan" : "Oseltamivir, Zanamivir, Ribavirin, Faviriparis",
+      "nama" : "Respiratory Syncytial Virus"
+    },
+    "155" : {
+      "kandungan" : "Zat aktif Paracetamol",
+      "nama" : "Fasidol"
+    },
+    "156" : {
+      "kandungan" : "Acyclovir CR 5% 5 gram",
+      "nama" : "Acyclovir"
+    },
+    "157" : {
+      "kandungan" : "Inclovir Valaciclovir",
+      "nama" : "Inclovir"
+    },
+    "158" : {
+      "kandungan" : "Heparin 40 mg",
+      "nama" : "Heparin"
+    },
+    "159" : {
+      "kandungan" : "Warfarin 2 mg",
+      "nama" : "Warfarin"
+    },
+    "160" : {
+      "kandungan" : "Prednisone tablet 5 mg",
+      "nama" : "Prednisone"
+    },
+    "161" : {
+      "kandungan" : "Inosine Monofosfat Dehydrogenase",
+      "nama" : "Azathioprine"
+    },
+    "162" : {
+      "kandungan" : "Pirfenidone 200 mg",
+      "nama" : "Pirfenidone"
+    },
+    "163" : {
+      "kandungan" : "Vitamin B1 (tiamin), Vitamin B2 (riboflavin), Vitamin B3 (niacin), Vitamin B5 (asam pantotenat), Vitamin B6 (pyridoxine), Vitamin B7 (biotin), Vitamin B9 (folat), Vitamin B12 (cobalamin)",
+      "nama" : "Vitamin B complex"
+    },
+    "164" : {
+      "kandungan" : "Paracetamol 500 mg",
+      "nama" : "Paracetamol"
+    },
+    "165" : {
+      "kandungan" : "Cyslophosphamide 50 mg",
+      "nama" : "Cyclophosphamide"
+    },
+    "166" : {
+      "kandungan" : "Sulfidril (contohnya Kaptopril), Dikarboksilat (contohnya Enalapril; Ramipril; Quinapril; Perindopril; Lisinopril; Benazepril)",
+      "nama" : "ACE Inhibitors"
+    },
+    "167" : {
+      "kandungan" : "Furosemide 40 mg",
+      "nama" : "Furosemide"
+    },
+    "168" : {
+      "kandungan" : "Ibuprofen 200 mg",
+      "nama" : "Ibuprofen"
+    },
+    "169" : {
+      "kandungan" : "Zat aktif Preganalin",
+      "nama" : "Pregabalin"
+    },
+    "170" : {
+      "kandungan" : " Clonozepam per tablet",
+      "nama" : "Clonazepam"
+    },
+    "171" : {
+      "kandungan" : "Tamsulosin HCl 400 mcg per tablet",
+      "nama" : "Tamsulosin"
+    },
+    "172" : {
+      "kandungan" : "Dutasteride 0.05 mg",
+      "nama" : "Dutastreride"
+    },
+    "173" : {
+      "kandungan" : "Pramipexole 0.18 mg, Pramipexole 0.25 mg, Pramipexole 0.125 mg",
+      "nama" : "Pramipexole"
+    },
+    "174" : {
+      "kandungan" : "300 mg Gabapentin per tablet",
+      "nama" : "Gabapentin"
+    },
+    "175" : {
+      "kandungan" : "Lurasidone Hidroklorida/Hydrochloride per tablet",
+      "nama" : "Lurasidone"
+    },
+    "176" : {
+      "kandungan" : "Aripiprazole 10 mg, Aripiprazole 15 mg per tablet",
+      "nama" : "Aripiprazole"
+    },
+    "177" : {
+      "kandungan" : "Asenapine 10 mg per tablet",
+      "nama" : "Asenapine"
+    },
+    "178" : {
+      "kandungan" : "Olanzapine 15 mg per tablet",
+      "nama" : "Olanzapine"
+    },
+    "179" : {
+      "kandungan" : "Na Hyaluronate 25 mg/2.5 mL, Naproxen Sodium",
+      "nama" : "Orthovisc Naproxen Sodium"
+    },
+    "180" : {
+      "kandungan" : "Minyak tanah (petroleum), Lilin",
+      "nama" : "Petroleum jelly"
+    },
+    "181" : {
+      "kandungan" : "Paracetamol 600 mg, phenylpropanolamine HCl 15 mg, chlorpheniramine maleate 2 mg",
+      "nama" : "Ultraflu"
+    },
+    "182" : {
+      "kandungan" : "Sulfamethoxazole 800, mgrimethoprim 40 mg",
+      "nama" : "Sulfamethoxazole 200 mg"
+    }
+  },
+  "pasien" : {
+    "001" : {
+      "alergi" : "Seafood",
+      "daftarObat" : [ {
+        "id" : "100",
+        "namaObat" : "Ciprofloxacin 500 mg",
+        "status" : true
+      }, {
+        "id" : "101",
+        "namaObat" : "Azithromycin 500 mg",
+        "status" : true
+      } ],
+      "diagnosa" : "Tipes",
+      "gender" : "Perempuan",
+      "jadwalObat" : "2 kali sehari, selama 60 hari",
+      "nama" : "Fenny Winda",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "21 tahun"
+    },
+    "002" : {
+      "alergi" : "Telur, Ayam",
+      "daftarObat" : [ {
+        "id" : "102",
+        "namaObat" : "Prednisone 5 mg",
+        "status" : true
+      }, {
+        "id" : "103",
+        "namaObat" : "Tofacitinib 5 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Radang Usus",
+      "gender" : "Perempuan",
+      "jadwalObat" : "1 kali per hari selama seminggu",
+      "nama" : "Rahmi Yunida",
+      "riwayatPenyakit" : "Maag akut",
+      "umur" : "25 tahun"
+    },
+    "003" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "104",
+        "namaObat" : "Ethosuximide 250 mg",
+        "status" : false
+      }, {
+        "id" : "105",
+        "namaObat" : "Lamotrigine 25 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Absans (lena)",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "1-2 kali sehari selama 4 sampai 7 hari",
+      "nama" : "Muhammad Ryan",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "33 tahun"
+    },
+    "004" : {
+      "alergi" : "Seafood",
+      "daftarObat" : [ {
+        "id" : "106",
+        "namaObat" : "Sulptide 50 mg tablet",
+        "status" : false
+      } ],
+      "diagnosa" : "Anoreksia Nervosa",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "Dosis awal 50 mg pada serangan pertama. Bila migrain masih terasa setelah 2 jam, konsumsi lagi 50 mg. selama 7 hari",
+      "nama" : "Yusril Amril",
+      "riwayatPenyakit" : "Hipertensi",
+      "umur" : "47 tahun"
+    },
+    "005" : {
+      "alergi" : "Kacang",
+      "daftarObat" : [ {
+        "id" : "108",
+        "namaObat" : "Albuterol",
+        "status" : false
+      } ],
+      "diagnosa" : "Asma Bronkhiale",
+      "gender" : "Perempuan",
+      "jadwalObat" : "200 mcg, 4 kali/hari",
+      "nama" : "Febriana",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "14 tahun"
+    },
+    "006" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "107",
+        "namaObat" : "Diklofenak",
+        "status" : false
+      } ],
+      "diagnosa" : "Asam Urat (Arthritis Gout)",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Dosis awal 50 mg pada serangan pertama. Bila migrain masih terasa setelah 2 jam, konsumsi lagi 50 mg. selama 7 hari",
+      "nama" : "Rita Mahrita",
+      "riwayatPenyakit" : "Rheumatic",
+      "umur" : "55 tahun"
+    },
+    "007" : {
+      "alergi" : "Telur, Ayam",
+      "daftarObat" : [ {
+        "id" : "109",
+        "namaObat" : "Anirematik (DMARDS",
+        "status" : false
+      } ],
+      "diagnosa" : "Arthritis Rheumatoid",
+      "gender" : "Perempuan",
+      "jadwalObat" : "3x sehari selama 3 hari",
+      "nama" : "Riana Putri",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "32 tahun"
+    },
+    "008" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "110",
+        "namaObat" : "Triamcinolone Acetonide",
+        "status" : false
+      } ],
+      "diagnosa" : "Hemangioma (Tumor pembuluh darah)",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "3-4 kali per hari secara oral",
+      "nama" : "Fajriansyah",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "1 tahun"
+    },
+    "009" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "111",
+        "namaObat" : "Mirtazapine",
+        "status" : false
+      } ],
+      "diagnosa" : "Depresi",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Sehari sekali dan diminum sebelum tidur",
+      "nama" : "Rahayu Safitri",
+      "riwayatPenyakit" : "Kehilangan berat badan",
+      "umur" : "19 tahun"
+    },
+    "010" : {
+      "alergi" : "Fruktosa",
+      "daftarObat" : [ {
+        "id" : "112",
+        "namaObat" : "Mesalamine",
+        "status" : false
+      }, {
+        "id" : "113",
+        "namaObat" : "Salfonak",
+        "status" : false
+      }, {
+        "id" : "114",
+        "namaObat" : "Pentasa",
+        "status" : false
+      } ],
+      "diagnosa" : "Penyakit chron",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "Masing-masing 3 kali sehari",
+      "nama" : "Budi Santoso",
+      "riwayatPenyakit" : "Radang usus akut",
+      "umur" : "50 tahun"
+    },
+    "011" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "115",
+        "namaObat" : "Bactrim Tablet",
+        "status" : false
+      }, {
+        "id" : "116",
+        "namaObat" : "Amoxicilin",
+        "status" : false
+      }, {
+        "id" : "117",
+        "namaObat" : "Cephalexin",
+        "status" : false
+      } ],
+      "diagnosa" : "Infeksi Saluran Kemih",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Diminum 2 kali sehari",
+      "nama" : "Sulistiani",
+      "riwayatPenyakit" : "Batu ginjal",
+      "umur" : "23 tahun"
+    },
+    "012" : {
+      "alergi" : "Telur",
+      "daftarObat" : [ {
+        "id" : "118",
+        "namaObat" : "Contrave",
+        "status" : false
+      }, {
+        "id" : "119",
+        "namaObat" : "Curvit",
+        "status" : false
+      } ],
+      "diagnosa" : "Weight loss",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Masing-masing 2 kali sehari sesudah makan",
+      "nama" : "Oktaviani Wijaya",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "23 tahun"
+    },
+    "013" : {
+      "alergi" : "Kacang",
+      "daftarObat" : [ {
+        "id" : "120",
+        "namaObat" : "Zyclara Topical Exfoliants",
+        "status" : false
+      } ],
+      "diagnosa" : "Keratosis",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Oleskan pada kulit sehari sekali sebelum tidur",
+      "nama" : "Rianda Putri Setiani",
+      "riwayatPenyakit" : "Bintik dan gatal pada kulit",
+      "umur" : "5 tahun"
+    },
+    "014" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "121",
+        "namaObat" : "Amitriptyline",
+        "status" : false
+      } ],
+      "diagnosa" : "Migraine",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "Diminum 2 kali sehari",
+      "nama" : "Ricardo Luis Hutanggalung",
+      "riwayatPenyakit" : "Pusing akut",
+      "umur" : "17 tahun"
+    },
+    "015" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "122",
+        "namaObat" : "Methadone Danazol",
+        "status" : false
+      } ],
+      "diagnosa" : "Endometriosis",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Secara oral dua kali sehari",
+      "nama" : "Mika Storia",
+      "riwayatPenyakit" : "Kista",
+      "umur" : "30 tahun"
+    },
+    "016" : {
+      "alergi" : "Kedelai",
+      "daftarObat" : [ {
+        "id" : "123",
+        "namaObat" : "Belviq",
+        "status" : false
+      } ],
+      "diagnosa" : "Weight loss",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Satu tablet sehari",
+      "nama" : "Liandra Via Putri",
+      "riwayatPenyakit" : "Tidak Ada",
+      "umur" : "27 tahun"
+    },
+    "017" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "124",
+        "namaObat" : "Seroquel",
+        "status" : false
+      } ],
+      "diagnosa" : "Schizoaffective Disorde",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "50 mg (hari ke-1), 100 mg (hari ke-2), 200 mg (hari ke-3), 300 mg (hari ke-4). Mulai hari ke-4 dan seterusnya, dosis efektif 300-450 mg/hari diberikan 2 kali perhari.",
+      "nama" : "Alvian Rizki",
+      "riwayatPenyakit" : "Depresi",
+      "umur" : "35 tahun"
+    },
+    "018" : {
+      "alergi" : "Udang",
+      "daftarObat" : [ {
+        "id" : "125",
+        "namaObat" : "Zolpidem",
+        "status" : false
+      } ],
+      "diagnosa" : "Insomnia",
+      "gender" : "Perempuan",
+      "jadwalObat" : "5–10 mg dikonsumsi tepat sebelum tidur. Dosis maksimal 10 mg per hari.",
+      "nama" : "Viania Radia Saputri",
+      "riwayatPenyakit" : "Depresi",
+      "umur" : "22 tahun"
+    },
+    "019" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "126",
+        "namaObat" : "Mirtazapine",
+        "status" : false
+      } ],
+      "diagnosa" : "Narcolepsy",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Diberikan dosis 20-30 mg setiap hari dalam dosis terbagi. Dosis efektif: 10-60 mg setiap hari.",
+      "nama" : "Sulastri",
+      "riwayatPenyakit" : "Pusing akut",
+      "umur" : "57 tahun"
+    },
+    "020" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "127",
+        "namaObat" : "Chantix (Verenicline)",
+        "status" : false
+      } ],
+      "diagnosa" : "Smoking Cessation",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "0.5 mg tablet sekali sehari",
+      "nama" : "Sutanto Perkasa",
+      "riwayatPenyakit" : "Asma",
+      "umur" : "68 tahun"
+    },
+    "021" : {
+      "alergi" : "Kacang",
+      "daftarObat" : [ {
+        "id" : "128",
+        "namaObat" : "Klonopin",
+        "status" : false
+      }, {
+        "id" : "129",
+        "namaObat" : "Frimania",
+        "status" : false
+      } ],
+      "diagnosa" : "Bipolar Disorde",
+      "gender" : "Perempuan",
+      "jadwalObat" : "0,25 mg 2 kali sehari",
+      "nama" : "Vianika Rania Leksmana",
+      "riwayatPenyakit" : "Depresi",
+      "umur" : "35 tahun"
+    },
+    "022" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "130",
+        "namaObat" : "Ciprofloaxin",
+        "status" : false
+      } ],
+      "diagnosa" : "Infeksi Saluran Kemih",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "Diminum 2 kali sehari",
+      "nama" : "Soeteja Rahardja",
+      "riwayatPenyakit" : "Gagal ginjal",
+      "umur" : "77 tahun"
+    },
+    "023" : {
+      "alergi" : "Fruktosa",
+      "daftarObat" : [ {
+        "id" : "131",
+        "namaObat" : "Trazodone",
+        "status" : false
+      } ],
+      "diagnosa" : "Insomnia",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "Dosis awal 150 mg/hari, dalam dosis terbagi sesudah makan, atau dosis tunggal menjelang tidur.",
+      "nama" : "Andromeda Darmawangsa",
+      "riwayatPenyakit" : "Pusing akut",
+      "umur" : "34 tahun"
+    },
+    "024" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "132",
+        "namaObat" : "Antropin",
+        "status" : false
+      }, {
+        "id" : "133",
+        "namaObat" : "Scopma Plus",
+        "status" : false
+      }, {
+        "id" : "134",
+        "namaObat" : "Loperamide",
+        "status" : false
+      } ],
+      "diagnosa" : "Irritable Bowel Syndrome",
+      "gender" : "Perempuan",
+      "jadwalObat" : "20 mg, 4 kali sehari",
+      "nama" : "Dewi Lestari",
+      "riwayatPenyakit" : "Diare",
+      "umur" : "28 tahun"
+    },
+    "025" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "135",
+        "namaObat" : "Mirtazapine",
+        "status" : false
+      } ],
+      "diagnosa" : "Keratoconjunctivitis Sicca",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "10–15 mg/kgBB per hari, dosis diberikan 4–12 jam sebelum operasi. Dosis pemeliharaan: 2–6 mg/kgBB per hari.",
+      "nama" : "Agus Prasetyo",
+      "riwayatPenyakit" : "Katarak",
+      "umur" : "45 tahun"
+    },
+    "026" : {
+      "alergi" : "Fruktosa",
+      "daftarObat" : [ {
+        "id" : "136",
+        "namaObat" : "Mirtazapine",
+        "status" : false
+      } ],
+      "diagnosa" : "Hyperhidrosis",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Dosis awal 7,5 mg per hari",
+      "nama" : "Zania Willy Kartika Putri",
+      "riwayatPenyakit" : "Tipes",
+      "umur" : "7 tahun"
+    },
+    "027" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "137",
+        "namaObat" : "Ciclopirox",
+        "status" : false
+      } ],
+      "diagnosa" : "Onychomcosis",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Oleskan cairan ciclopirox sebanyak 2 kali sehari.",
+      "nama" : "Suparti",
+      "riwayatPenyakit" : "Mata ikan",
+      "umur" : "49 tahun"
+    },
+    "028" : {
+      "alergi" : "Telur",
+      "daftarObat" : [ {
+        "id" : "138",
+        "namaObat" : "Xyrem",
+        "status" : false
+      } ],
+      "diagnosa" : "Narcolepsy",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "Diberikan dosis 20-30 mg setiap hari dalam dosis terbagi. Dosis efektif: 10-60 mg setiap hari.",
+      "nama" : "Alfariansayah Vianto",
+      "riwayatPenyakit" : "Pusing akut",
+      "umur" : "9 tahun"
+    },
+    "029" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "103",
+        "namaObat" : "Tofacitinib",
+        "status" : false
+      } ],
+      "diagnosa" : "Rheumatoid Arthritis",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "5 mg sehari dua kali.",
+      "nama" : "Slamet Budi Sejahtera",
+      "riwayatPenyakit" : "Asam urat",
+      "umur" : "55 tahun"
+    },
+    "030" : {
+      "alergi" : "Kacang",
+      "daftarObat" : [ {
+        "id" : "139",
+        "namaObat" : "Albendazole 400 mg",
+        "status" : false
+      }, {
+        "id" : "140",
+        "namaObat" : "Mebendazole 100 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Infeksi Cacing (Askariasis)",
+      "gender" : "Perempuan",
+      "jadwalObat" : "3x sehari selama 3 hari",
+      "nama" : "Cahaya Melynia",
+      "riwayatPenyakit" : "Diabetes",
+      "umur" : "22 tahun"
+    },
+    "031" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "141",
+        "namaObat" : "Azitromisin 500 mg",
+        "status" : false
+      }, {
+        "id" : "142",
+        "namaObat" : "Doksisiklin 200 mg",
+        "status" : false
+      }, {
+        "id" : "143",
+        "namaObat" : "Eritromisin 200 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Infeksi saluran kencing (Uretritis)",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "3x sehari selama 3 hari",
+      "nama" : "Ade sudrajat",
+      "riwayatPenyakit" : "Cedera tulang kering",
+      "umur" : "18 tahun"
+    },
+    "032" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "144",
+        "namaObat" : "Ursodeoksilat 250 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Batu empedu",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "1 tablet 2 kali/hari",
+      "nama" : "Nasrullah",
+      "riwayatPenyakit" : "Hipertensi",
+      "umur" : "55 tahun"
+    },
+    "033" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "145",
+        "namaObat" : "Propranolol 10 mg",
+        "status" : false
+      }, {
+        "id" : "146",
+        "namaObat" : "Esmolol 500 mcg/kgBB",
+        "status" : false
+      }, {
+        "id" : "147",
+        "namaObat" : "Digoxin 0.125-0.25 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Atrial Fibrilasi",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "3-4 kali per hari secara oral",
+      "nama" : "Muhammad Alfie",
+      "riwayatPenyakit" : "Asma",
+      "umur" : "40 tahun"
+    },
+    "034" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "148",
+        "namaObat" : "Ambeven kapsul",
+        "status" : false
+      } ],
+      "diagnosa" : "BAB berdarah",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "2 kaplet, 3 kali per hari",
+      "nama" : "Sulaiman",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "8 tahun"
+    },
+    "035" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "116",
+        "namaObat" : "Amoxicillin 500 mg",
+        "status" : false
+      }, {
+        "id" : "149",
+        "namaObat" : "Clotrimazole gel 2.0 ",
+        "status" : false
+      }, {
+        "id" : "102",
+        "namaObat" : "Prednisolone 5 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Balanitis",
+      "gender" : "Perempuan",
+      "jadwalObat" : "3x sehari selama 3 hari",
+      "nama" : "Adela Putri Ariyanti",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "17 tahun"
+    },
+    "036" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "150",
+        "namaObat" : "Isoniazid 300 mg",
+        "status" : false
+      }, {
+        "id" : "151",
+        "namaObat" : "Rifampicin 450 mg",
+        "status" : false
+      }, {
+        "id" : "152",
+        "namaObat" : "Pyrazinamide 500 mg",
+        "status" : false
+      }, {
+        "id" : "153",
+        "namaObat" : "Ethambutol 275 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Hemoptisis",
+      "gender" : "Perempuan",
+      "jadwalObat" : "2-3 kali per hari secara oral",
+      "nama" : "Kiki Ariyani",
+      "riwayatPenyakit" : "Gagal ginjal akut",
+      "umur" : "21 tahun"
+    },
+    "037" : {
+      "alergi" : "Babi",
+      "daftarObat" : [ {
+        "id" : "181",
+        "namaObat" : "Ultraflu",
+        "status" : false
+      } ],
+      "diagnosa" : "Covid 19",
+      "gender" : "Perempuan",
+      "jadwalObat" : "3x sehari, selama 7 hari",
+      "nama" : "Emily Johnson",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "20 tahun"
+    },
+    "038" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "101",
+        "namaObat" : "Azithromycin 500 mg",
+        "status" : false
+      }, {
+        "id" : "182",
+        "namaObat" : " Sulfamethoxazole 800 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Katarak Traumatik",
+      "gender" : "Perempuan",
+      "jadwalObat" : "2 kali sehari, untuk RSV 3 kali seminggu selama 30 hari",
+      "nama" : "Riski Rahmah",
+      "riwayatPenyakit" : "Pneumonia",
+      "umur" : "30 tahun"
+    },
+    "039" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "155",
+        "namaObat" : "Fasidol 500 mg",
+        "status" : false
+      }, {
+        "id" : "156",
+        "namaObat" : "Acyclovir CR 5% 5 gram",
+        "status" : false
+      }, {
+        "id" : "157",
+        "namaObat" : "Inclovir 500 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Cacar Air",
+      "gender" : "Perempuan",
+      "jadwalObat" : "3 kali per hari secara oral",
+      "nama" : "Noor Hikmah",
+      "riwayatPenyakit" : "Kista Payudara",
+      "umur" : "29 tahun"
+    },
+    "040" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "158",
+        "namaObat" : "Heparin 40 mg",
+        "status" : false
+      }, {
+        "id" : "159",
+        "namaObat" : "Warfarin 2 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Defisiensi protein C",
+      "gender" : "Perempuan",
+      "jadwalObat" : "1–2 hari selama 2 minggu",
+      "nama" : "Kiki Saputri",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "27 tahun"
+    },
+    "041" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "160",
+        "namaObat" : "Prednisone tablet 5 mg",
+        "status" : false
+      }, {
+        "id" : "161",
+        "namaObat" : "Azathioprine 50 mg",
+        "status" : false
+      }, {
+        "id" : "162",
+        "namaObat" : "Pirfenidone 200 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Fibrosis Paru",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "1 kali hari selama seminggu",
+      "nama" : "Ady Saputra",
+      "riwayatPenyakit" : "Dehidrasi",
+      "umur" : "34 tahun"
+    },
+    "042" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "163",
+        "namaObat" : "Vit B complex",
+        "status" : false
+      }, {
+        "id" : "164",
+        "namaObat" : "Paracetamol 500 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Demam Kelenjar (Glandular Fever)",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "3-4 kali per hari. Penggunaan maximum 8 kaplet per hari",
+      "nama" : "Muhammad Zakir",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "22 tahun"
+    },
+    "043" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "165",
+        "namaObat" : "Cyclophosphamide 50 mg",
+        "status" : false
+      }, {
+        "id" : "166",
+        "namaObat" : "ACE inhibitors 20 mg",
+        "status" : false
+      }, {
+        "id" : "167",
+        "namaObat" : "Fgurosemide 40 mg",
+        "status" : false
+      } ],
+      "diagnosa" : "Glomerulonefritis",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "2-3 kali perhari selama 7 sampai 10 hari",
+      "nama" : "Ardiansyah",
+      "riwayatPenyakit" : "Insomnia akut",
+      "umur" : "25 tahun"
+    },
+    "044" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "168",
+        "namaObat" : "Ibuprofen",
+        "status" : false
+      }, {
+        "id" : "169",
+        "namaObat" : "Pregabalin",
+        "status" : false
+      }, {
+        "id" : "170",
+        "namaObat" : "Amitriptyline",
+        "status" : false
+      } ],
+      "diagnosa" : "Fibromyalgia",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "25 mg, 2 kali sehari. Dosis dapat ditingkatkan secara bertahap sebanyak 25 mg setiap satu hari",
+      "nama" : "Fajriani",
+      "riwayatPenyakit" : "Diare Kronis",
+      "umur" : "41 tahun"
+    },
+    "045" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "169",
+        "namaObat" : "Pregabalin",
+        "status" : false
+      }, {
+        "id" : "170",
+        "namaObat" : "Clonazepam",
+        "status" : false
+      } ],
+      "diagnosa" : "Anxiety",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "0.25 mg 2 kali sehari",
+      "nama" : "Fikri Nurcahaya",
+      "riwayatPenyakit" : "Depresi",
+      "umur" : "17 tahun"
+    },
+    "046" : {
+      "alergi" : "Kedelai",
+      "daftarObat" : [ {
+        "id" : "171",
+        "namaObat" : "Tamsulosin",
+        "status" : false
+      }, {
+        "id" : "172",
+        "namaObat" : "Dutastride",
+        "status" : false
+      } ],
+      "diagnosa" : "Benign Prostatic Hyperplasia",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "400 mcg sekali sehari",
+      "nama" : "Widianto Sinaga",
+      "riwayatPenyakit" : "Batu ginjal",
+      "umur" : "33 tahun"
+    },
+    "047" : {
+      "alergi" : "Fruktosa",
+      "daftarObat" : [ {
+        "id" : "173",
+        "namaObat" : "Pramipexole",
+        "status" : false
+      }, {
+        "id" : "174",
+        "namaObat" : "Gabapentin",
+        "status" : false
+      } ],
+      "diagnosa" : "Restless Legs Syndrome",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Diberikan dosis 0.375 mg per hari dibagi dalam 3 dosis",
+      "nama" : "Bintang Delima",
+      "riwayatPenyakit" : "Neuropati",
+      "umur" : "30 tahun"
+    },
+    "048" : {
+      "alergi" : "Madu",
+      "daftarObat" : [ {
+        "id" : "175",
+        "namaObat" : "Lurasidone",
+        "status" : false
+      }, {
+        "id" : "177",
+        "namaObat" : "Asenapine",
+        "status" : false
+      }, {
+        "id" : "178",
+        "namaObat" : "Olanzapine",
+        "status" : false
+      } ],
+      "diagnosa" : "Schizophrenia",
+      "gender" : "Laki-laki",
+      "jadwalObat" : "Dosis awal 15 mg, 1 kali sehari",
+      "nama" : "Nur Fajrullah",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "28 tahun"
+    },
+    "049" : {
+      "alergi" : "Tidak ada",
+      "daftarObat" : [ {
+        "id" : "179",
+        "namaObat" : "Orthovisc Naproxen Sodium",
+        "status" : false
+      } ],
+      "diagnosa" : "Osteorthritis",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Suntik Orthovisc saat nyeri pada kaki, Dosis awal naproxen sodium  750 mg, lalu dilanjutkan dengan 250 mg tiap 8 jam, hingga nyeri reda.",
+      "nama" : "Findi Fajriani",
+      "riwayatPenyakit" : "Asam urat",
+      "umur" : "30 tahun"
+    },
+    "050" : {
+      "alergi" : "Fruktosa",
+      "daftarObat" : [ {
+        "id" : "180",
+        "namaObat" : "Petroleum Jelly",
+        "status" : false
+      } ],
+      "diagnosa" : "Eksim",
+      "gender" : "Perempuan",
+      "jadwalObat" : "Oleskan pada kulit setelah mandi",
+      "nama" : "Raviella Nindi Panduwinata",
+      "riwayatPenyakit" : "Tidak ada",
+      "umur" : "2 tahun"
+    }
+  }
+}
