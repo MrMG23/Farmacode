@@ -13,8 +13,8 @@ This application is intended to complete the final project of the Bangkit Progra
 
 ## Screenshots
 <p float="left">
-  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/1.jpg" alt="Daftar" width="200">
-  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/2.jpg" alt="Daftar" width="200">
-  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/3.jpg" alt="Daftar" width="200">
-  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/4.jpg" alt="Daftar" width="200">
+  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/1.jpg" alt="Scanner" width="200" height="400">
+  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/2.jpg" alt="PatientActivity1" width="200">
+  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/3.jpg" alt="PatientActivity2" width="200">
+  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/4.jpg" alt="DrugActivity" width="200">
 <p>
