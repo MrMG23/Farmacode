@@ -10,3 +10,11 @@ This application is intended to complete the final project of the Bangkit Progra
 - <img height="20" width="20" src="https://unpkg.com/simple-icons@v5/icons/probot.svg" /> Machine Learning
 - <img height="20" width="20" src="https://unpkg.com/simple-icons@v5/icons/googlecolab.svg" /> Cloud Computing
 - <img height="20" width="20" src="https://unpkg.com/simple-icons@v5/icons/android.svg" /> Mobile Android
+
+## Screenshots
+<p float="left">
+  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/1.jpg" alt="PatientActivity1" width="200" height="350">
+  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/2.jpg" alt="PatientActivity1" width="200">
+  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/3.jpg" alt="PatientActivity2" width="200">
+  <img src="https://github.com/MrMG23/Farmacode/blob/main/readme/4.jpg" alt="DrugActivity" width="200">
+<p>
