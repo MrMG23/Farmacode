@@ -16,9 +16,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.bangkit.farmacode.databinding.ActivityScannerBinding
 import com.bangkit.farmacode.drug.DrugActivity
 import com.bangkit.farmacode.patient.PatientActivity
-import com.bangkit.farmacode.patient.PatientActivity.Companion.EXTRA_DATA
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import java.io.ByteArrayOutputStream
@@ -35,8 +32,8 @@ class ScannerActivity : AppCompatActivity() {
     }
 
     private lateinit var binding: ActivityScannerBinding
-    private lateinit var databaseReference: DatabaseReference
-    private var userId: String? = null
+//    private lateinit var databaseReference: DatabaseReference
+//    private var userId: String? = null
 
     @SuppressLint("QueryPermissionsNeeded")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,11 +42,10 @@ class ScannerActivity : AppCompatActivity() {
         binding = ActivityScannerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
-        if (intent.getStringExtra(ID_PATIENT) != null){
-            userId = intent.getStringExtra(ID_PATIENT)!!
-            Log.d("userId : ", userId.toString())
-        }
+//        if (intent.getStringExtra(ID_PATIENT) != null){
+//            userId = intent.getStringExtra(ID_PATIENT)!!
+//            Log.d("userId : ", userId.toString())
+//        }
 
         // Camera button handle
         binding.scannerButton.setOnClickListener {
@@ -133,12 +129,14 @@ class ScannerActivity : AppCompatActivity() {
                         startActivity(intent)
                     }
                     result.substring(0, 1).equals("1") -> {
-                        if(userId != null){
-                            val reference = FirebaseDatabase.getInstance()
-                            reference.getReference("pasien").child(userId.toString()).child("daftarObat").child("0").child("status").setValue(true)
-                            val intent = Intent(this, PatientActivity::class.java)
-                            intent.putExtra(PatientActivity.EXTRA_ID_DRUG,result)
-                            startActivity(intent)
+                        val idPatient = intent.getStringExtra(ID_PATIENT)
+                        if (!idPatient.isNullOrEmpty()) {
+                            Intent(this, PatientActivity::class.java).apply {
+                                putExtra(PatientActivity.EXTRA_ID_DRUG, result)
+                                putExtra(PatientActivity.EXTRA_DATA, idPatient)
+                                startActivity(this)
+                                finish()
+                            }
                         } else {
                             val intent = Intent(this, DrugActivity::class.java)
                             intent.putExtra(DrugActivity.EXTRA_DATA, result)
